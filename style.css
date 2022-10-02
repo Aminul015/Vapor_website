@@ -1,0 +1,400 @@
+ 
+.login-button
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.item 
+{
+    color: black!important;
+    font-size: 18px!important;
+    margin: 0px 12px;
+    position: relative;
+    transition: .3s all;
+}
+.item:hover 
+{
+    color: red !important;
+}
+ 
+.nav-logo
+{
+    font-size: 50px;
+    color: coral!important;
+}
+/* banner section style here  */
+.banner-section 
+{
+    background-color:#ebf2fd;
+    
+    height: 50vh;
+}
+
+.banner-container 
+{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header-title 
+{
+    font-size: 35px;
+    font-weight: bold;
+}
+ 
+.curse-btn 
+{
+    background-color:#202357 ;
+    border: 1px solid #202357;
+}
+
+.course-details h2 
+{
+    font-size: 40px;
+    color: #202357;
+}
+ 
+.servie-consultancy 
+{
+    margin: 10% 0px;
+}
+.consultancy-img
+{
+    padding: 0px 10px;
+    background-color: aliceblue;
+    text-align: center;
+    width: 80%;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 40%;
+}
+
+.consultancy-img img 
+{
+    width: 100%;
+    position: relative;
+    bottom: -100px;
+    padding: 50px;
+}
+
+.service-image
+{
+    padding: 0px 10px;
+    background-color: aliceblue;
+    text-align: center;
+    width: 80%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.service-image img
+{
+    width: 100%;
+    position: relative;
+    bottom: -100px;
+    padding: 50px;
+}
+.coun-serv h2
+{
+    font-size: 40px;
+    margin-top: 20px;
+    color: #202357;
+}
+.coun-serv i 
+{
+    padding: 3px;
+    border: 1px solid coral;
+    margin: 10px 0px;
+    border-radius: 100px;
+    color: coral;
+    margin-right: 5px;
+}
+
+ 
+.the-book 
+{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 80px 10px;
+    /* height:80vh; */
+    margin-bottom: 5%;
+}
+.book-container h2 
+{
+    font-size: 50px;
+    color: #202357;
+}
+.book-container p 
+{
+    width: 70%;
+    margin: 0px auto;
+}
+.book-container img
+{
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+
+ 
+
+.right-card 
+{
+    background-color: white;
+    padding: 50px 20px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.413);
+    margin: 30px 0px;
+    transition: .3s all;
+}
+.right-card:hover 
+{
+    box-shadow: 2px 2px 6px black;
+    border-color: white;
+}
+.customer-card-left 
+{
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.413);
+    position: relative;
+    padding: 50px 20px;
+    top: 100px;
+    transition: .3s all;
+}
+.customer-card-left:hover
+{
+    box-shadow: 2px 2px 6px black;
+    border-color: white;
+}
+.customer-card-left h3
+{
+    color:#767ef8 ;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.customer-title h2 
+{
+    font-size: 50px;
+    color: #202357;
+}
+.customer-img img
+{
+    width: 60px;
+    border-radius: 100px;
+}
+.customer-image-and-name-container 
+{
+    display: flex;
+    align-items: center;
+}
+.customer-name 
+{
+   margin-top: 25px;
+   margin-left: 10px;
+}
+.customer-name h6
+{
+    font-weight: bold;
+    color:blue;
+}
+.customer-name p 
+{
+    margin-top: -10px;
+}
+.right-card-1 i
+{
+    font-size: 25px;
+    color: #202357;
+  
+}
+.right-card-1 span
+{
+    font-size: 25px;
+    color: #202357;
+  
+}
+/* Footer Section style Started Here  */
+.footer-section 
+{
+    background-color: #202357;
+    padding: 20px 0px;
+    margin-top: 10%;
+}
+.project 
+{
+    background-color: #df7f82;
+    padding: 50px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    position: relative;
+    top: -110px;
+}
+.contact-icon 
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 70%;
+}
+.brokenhands-details 
+{
+    margin-top: -8%;
+    padding: 20px;
+}
+.brokenhands-details p 
+{
+    text-align: justify;
+}
+.contact-icon i 
+{
+    color: white;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: #df7f82;
+    margin-right: 5px;
+}
+.footer-btn
+{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+.footer-btn:hover 
+{
+    background-color:#202357;
+    color: white;
+
+}
+.contact-icon span 
+{
+    color: white;
+}
+.footer-right
+{
+    padding: 20px;
+}
+.footer-right input 
+{
+    width: 70%;
+    height: 40px;
+    outline: none;
+    border-radius: 100px;
+    padding: 10px 15px;
+}
+.footer-right button {
+ height: 30px;
+ padding: 0px 10px 0px 10px;
+
+ border-radius: 100px;
+ position: relative;
+ right: 75px;
+ border: none;
+ background-color: #df7f82;
+ outline: none;
+ text-align: center;
+ color: white;
+}
+.footer-icon-list 
+{
+    margin-top:50px ;
+    text-align: center;
+}
+.footer-icon-list i 
+{
+    color: white;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: #df7f82;
+    margin: 5px;
+    transition: .3s all;
+}
+.footer-icon-list i:hover 
+{
+    background-color: white;
+    color: black;
+    transform: translateY(-5px);
+}
+/* Responsive section here  */
+@media screen and (max-width:991px)
+{
+    .login-button
+    {
+        
+        justify-content: flex-start;
+    }
+    .item:hover::before
+    {
+       width: 15%;
+  
+    }
+    .item 
+     {
+       margin: 0px; 
+     }
+     .login-button
+     {
+        flex-direction: column;
+      
+     }
+     .login-button button
+     {
+        margin-left: 0px!important;
+     }
+     .consultancy-img
+     {
+        width: 100%;
+        margin: 20px 0px;
+     }
+     .service-image
+     {
+        width: 100%;
+        margin: 20px 0px;
+     }
+     .customer-card-left 
+    {
+       
+        top: 0px;
+    }
+    .contact-icon 
+    {
+        width: 100%;
+    }
+}
+@media screen and (max-width:575px)
+{
+    /* banner section started here  */
+    .header-main-title 
+    {
+        font-size: 40px;
+    }
+    .course-img img 
+    {
+       bottom: 0px;
+       margin-top: 30px;
+    }
+    .footer-section  
+    {
+        margin-top: 20%;
+    }
+    .contact-icon 
+    {
+        width: 100%;
+    }
+    .header-title 
+    {
+        font-size: 30px;
+    }
+    .footer-icon-list 
+    {
+        text-align: left;
+    }
+    .book-container p 
+    {
+        width: 100%;
+    }
+}
